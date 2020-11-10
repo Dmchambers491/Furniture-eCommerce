@@ -2,13 +2,17 @@
 
 <body>
 	<div class="container">
-	</br>
+	<br>
 		<h1>Login with Username and Password</h1>
-		<label for="username">User:</label></br>
-		<input type="text" id="username" name="username" placeholder="Username" class="stretch"/>
-		<label for="password">Password:</label></br>
-		<input type="password" id="password" name="password" placeholder="Password" class="stretch"/>
-		<button type="submit">Submit</button>
+		<form action="loggedin.jsp" method="post">
+		    <label for="uname"><b>User:</b></label><br>
+		    <input type="text" placeholder="Enter Username" name="uname" class="stretch" required><br><br>
+		
+		    <label for="psw"><b>Password:</b></label><br>
+		    <input type="password" placeholder="Enter Password" name="psw" class="stretch" required><br><br>
+		
+		    <button type="submit">Login</button>
+		</form>
 	</div>
 </body>
 </html>
