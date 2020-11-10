@@ -13,7 +13,9 @@
 	crossorigin="anonymous">
 
 <style>
-	
+	.stretch {
+		width: 100%;
+	}
 </style>
 </head>
 <body>
