@@ -1,4 +1,4 @@
-<%@ include file="header.jsp"%>
+<%@ include file="header.jsp"%><!-- This will have a different header -->
 
 <body>
 	<div class="container">
