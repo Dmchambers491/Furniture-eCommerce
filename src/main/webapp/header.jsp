@@ -16,6 +16,15 @@
 	.stretch {
 		width: 100%;
 	}
+	
+	.navicon {
+		color: rgba(255,255,255,.5);
+		margin-right: 20px;
+	}
+	
+	.searchbar {
+		float: right;
+	}
 </style>
 </head>
 <body>
@@ -27,7 +36,7 @@
 					aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<h5 class="nav-item"><a class="nav-link" href="index.jsp">Furniture Hub</a></h5>
+				<h5 class="nav-item"><a class="navicon" href="index.jsp">Furniture Hub</a></h5>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="index.jsp">Home</a></li>
