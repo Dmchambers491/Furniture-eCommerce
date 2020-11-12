@@ -1,5 +1,9 @@
 package com.furniture.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "username")
 public class UserModel {
 	
 	

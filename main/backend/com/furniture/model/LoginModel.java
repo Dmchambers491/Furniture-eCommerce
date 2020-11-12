@@ -1,5 +1,10 @@
 package com.furniture.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "username")
 public class LoginModel {
 	
 	private String username;
