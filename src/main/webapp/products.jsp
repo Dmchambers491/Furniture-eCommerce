@@ -22,7 +22,7 @@
 		</p>
 		<table class="table table-hover">
 		  <thead>
-		    <tr>
+		    <tr class="table-success">
 		      <th scope="col">Proto Thumb</th>
 		      <th scope="col">Product Name</th>
 		      <th scope="col">Category</th>

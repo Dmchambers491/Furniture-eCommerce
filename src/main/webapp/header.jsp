@@ -25,6 +25,10 @@
 	.searchbar {
 		float: right;
 	}
+	
+	.checkout {
+		margin-left: 250px;
+	}
 </style>
 </head>
 <body>
