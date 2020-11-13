@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
 <title>Furniture Store</title>
 
 <link rel="stylesheet"
@@ -24,6 +23,10 @@
 	
 	.searchbar {
 		float: right;
+	}
+	
+	.checkout {
+		margin-left: 250px;
 	}
 </style>
 </head>
