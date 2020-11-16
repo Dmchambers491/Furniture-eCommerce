@@ -11,4 +11,14 @@ public class HomeController {
 	public String check() {
 		return "index";
 	}
+	
+	@RequestMapping("/admin")
+	public String adminPage() {
+		return "admin";
+	}
+	
+	@RequestMapping("/contact")
+	public String contactPage() {
+		return "contact";
+	}
 }
