@@ -16,7 +16,6 @@ import com.furniture.service.*;
 @RestController
 public class LoginController {
 	
-	@Autowired
 	UserService userService;
 	
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
