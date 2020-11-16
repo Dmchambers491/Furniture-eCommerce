@@ -20,7 +20,7 @@ import com.furniture.service.UserService;
 @Controller
 public class RegistrationController {
 	
-	@Autowired
+	
 	UserService userService;
 	
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
