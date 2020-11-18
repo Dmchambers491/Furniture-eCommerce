@@ -17,7 +17,6 @@ public class UserDaoImp implements UserDao {
 	@Autowired
 	DataSource datasource;
 	
-	
 	@Autowired
 	JdbcTemplate jdbcTemplate;
 	
