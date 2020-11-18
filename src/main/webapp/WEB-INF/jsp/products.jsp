@@ -1,4 +1,5 @@
 <%@ include file="header.jsp"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <body>
 	<div class="container">
@@ -23,7 +24,7 @@
 		<table class="table table-hover">
 		  <thead>
 		    <tr class="table-success">
-		      <th scope="col">Proto Thumb</th>
+		      <th scope="col">Photo Thumb</th>
 		      <th scope="col">Product Name</th>
 		      <th scope="col">Category</th>
 		      <th scope="col">Condition</th>
