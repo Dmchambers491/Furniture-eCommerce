@@ -6,8 +6,8 @@
 	
   <display-name>Archetype Created Web Application</display-name>
   
-  <!-- <welcome-file-list>
-		<welcome-file>login.jsp</welcome-file>
+  	<!-- <welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list> -->
 	
 	<listener>
@@ -16,7 +16,7 @@
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>
-            /WEB-INF/spring-mvc-servlet.xml,
+            /WEB-INF/spring-servlet.xml,
             /WEB-INF/Beans.xml
         </param-value>
     </context-param>

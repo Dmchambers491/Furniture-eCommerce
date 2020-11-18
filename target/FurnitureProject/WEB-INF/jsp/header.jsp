@@ -39,20 +39,20 @@
 					aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<h5 class="nav-item"><a class="navicon" href="index.jsp">Furniture Hub</a></h5>
+				<h5 class="nav-item"><a class="navicon" href="index">Furniture Hub</a></h5>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="index.jsp">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="products.jsp">Products</a></li>
-						<li class="nav-item"><a class="nav-link" href="about.jsp">About Us</a></li>
-						<li class="nav-item"><a class="nav-link" href="contact.jsp">Contact Us</a></li>
+						<li class="nav-item"><a class="nav-link" href="index">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="products">Products</a></li>
+						<li class="nav-item"><a class="nav-link" href="about">About Us</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
 					</ul>
 				</div>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="admin.jsp">Admin</a></li>
-						<li class="nav-item"><a class="nav-link" href="login.jsp">Login</a></li>
-						<li class="nav-item"><a class="nav-link" href="register.jsp">Register</a></li>
+						<li class="nav-item"><a class="nav-link" href="admin">Admin</a></li>
+						<li class="nav-item"><a class="nav-link" href="login">Login</a></li>
+						<li class="nav-item"><a class="nav-link" href="register">Register</a></li>
 					</ul>
 				</div>
 			</nav>
