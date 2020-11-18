@@ -32,6 +32,11 @@
 		    </tr>
 		  </thead>
 		  <tbody>
+		  <c:forEach items="${allProducts}" var="products">
+		    <tr>      
+		        <td>${products.name}</td>
+		    </tr>
+		  </c:forEach>
 		  </tbody>
 		</table>
 		<hr>
