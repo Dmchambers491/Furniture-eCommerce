@@ -34,7 +34,11 @@
 		  <tbody>
 		  <c:forEach items="${allProducts}" var="products">
 		    <tr>      
+		        <td>${products.picture}</td>
 		        <td>${products.name}</td>
+		        <td>${products.category}</td>
+		        <td>${products.condition}</td>
+		        <td>${products.price}</td>
 		    </tr>
 		  </c:forEach>
 		  </tbody>
