@@ -26,8 +26,7 @@
 		    <tr class="table-success">
 		      <th scope="col">Photo Thumb</th>
 		      <th scope="col">Product Name</th>
-		      <th scope="col">Category</th>
-		      <th scope="col">Condition</th>
+		      <th scope="col">Description</th>
 		      <th scope="col">Price</th>
 		      <th scope="col"></th>
 		    </tr>
@@ -37,8 +36,7 @@
 		    <tr>      
 		        <td>${products.picture}</td>
 		        <td>${products.name}</td>
-		        <td>${products.category}</td>
-		        <td>${products.condition}</td>
+		        <td>${products.description}</td>
 		        <td>${products.price}</td>
 		    </tr>
 		  </c:forEach>
